@@ -7,7 +7,7 @@ from decimal import Decimal
 
 def export_excel(total_values):
     # first read the format structure from template output file
-    df = pd.read_excel("Output Data Structure.xlsx")
+    df = pd.read_excel(r".\Output Data Structure.xlsx")
 
     # get the column headers
     keys = list(df.keys())
